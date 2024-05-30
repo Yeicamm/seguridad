@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_nombre_funcionario" type="id" />
+    <item name="spinner_rol" type="id" />
+    <item name="btn_submit" type="id" />
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#9EB696">
+
+    <!-- EditText para el nombre del funcionario -->
+    <EditText
+        android:id="@+id/et_nombre_funcionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre del funcionario"
+        android:padding="16dp"
+        android:minHeight="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background_improved"
+        android:textColorHint="#9E9E9E"
+        android:textSize="16sp"
+        android:gravity="center_vertical"/>
+
+    <!-- Spinner para seleccionar el rol -->
+    <Spinner
+        android:id="@+id/spinner_rol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:prompt="@string/select_role" />
+
+    <!-- EditText para el área -->
+    <EditText
+        android:id="@+id/et_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Área"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- EditText para el nombre de la entidad -->
+    <EditText
+        android:id="@+id/et_nombre_entidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Nombre de la Entidad"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- EditText para la URL de la entidad -->
+    <EditText
+        android:id="@+id/et_url_entidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="URL de la Entidad"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- EditText para el NIT de la entidad -->
+    <EditText
+        android:id="@+id/et_nit_entidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/input_background_improved"
+        android:gravity="center_vertical"
+        android:hint="NIT de la Entidad"
+        android:inputType="numberDecimal"
+        android:minWidth="200dp"
+        android:minHeight="56dp"
+        android:padding="16dp"
+        android:textColorHint="#9E9E9E"
+        android:textSize="16sp" />
+
+    <!-- Botón para enviar el formulario -->
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button_background_new_color"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

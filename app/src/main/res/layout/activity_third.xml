@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="Contenido desplazable de preguntas y respuestas">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Layout for Control Interno -->
+        <LinearLayout
+            android:id="@+id/layout_control_interno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Control Interno questions here -->
+        </LinearLayout>
+
+        <!-- Layout for Gestión Humana -->
+        <LinearLayout
+            android:id="@+id/layout_gestion_humana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_compras_adquisidores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_lider_proceso1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_lider_proceso2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_lider_proceso3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_responsable_continuidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_responsable_seguridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_responsable_si"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_responsable_tic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_calidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <!-- Add TextViews and EditTexts for Gestión Humana questions here -->
+        </LinearLayout>
+
+        <!-- Add other layouts for other roles as needed -->
+
+        <!-- Button to go to FourthActivity -->
+        <Button
+            android:id="@+id/button_to_fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
